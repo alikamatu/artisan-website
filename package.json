@@ -12,5 +12,14 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.13.1"
+  "packageManager": "pnpm@10.13.1",
+  "workspaces": [
+    "apps/*"
+  ],
+  "dependencies": {
+    "husky": "^9.1.7"
+  },
+  "devDependencies": {
+    "turbo": "^2.5.5"
+  }
 }
