@@ -1,7 +1,7 @@
 import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, OneToOne } from 'typeorm';
-import { Job } from '../jobs/job.entity';
-import { User } from '../users/user.entity';
-import { Booking } from '../bookings/booking.entity';
+import { Job } from './job.entity';
+import { User } from './user.entity';
+import { Booking } from './booking.entity';
 
 @Entity('proposals')
 export class Proposal {
