@@ -6,7 +6,7 @@ import { Booking } from './booking.entity';
 import { Message } from './message.entity';
 import { Review } from './review.entity';
 
-@Entity('users')
+@Entity('user_profile')
 export class User {
   @PrimaryGeneratedColumn('uuid')
   id: string;
