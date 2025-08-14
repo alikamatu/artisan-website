@@ -17,9 +17,13 @@
     "apps/*"
   ],
   "dependencies": {
-    "husky": "^9.1.7"
+    "husky": "^9.1.7",
+    "lucide-react": "^0.539.0",
+    "next": "^15.4.6"
   },
   "devDependencies": {
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
     "turbo": "^2.5.5"
   }
 }
